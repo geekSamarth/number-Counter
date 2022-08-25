@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #616161;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.countbox{
+    background-color: #d4d3d3;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.heading{
+    text-align: center;
+    font-size: large;
+    padding: 6px;
+    margin: 8px 0;
+}
+.count-data{
+    font-size:50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    height: 15vh;
+}
+button{
+    outline: none;
+}
+.btn{
+    width: 65px;
+    height: 35px;
+    font-size: large;
+    padding: 2px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.btn:hover{
+    background: #000;
+    color: white;
+}
+@media screen and (max-width:1000px) {
+    .countbox{
+        width: 90vw;
+        height: 50vh;
+    }
+    .count-data{
+        margin-top: 80px;
+        font-size: 34px;
+    }
+    .button{
+        height: 25vh;
+    }
+}
